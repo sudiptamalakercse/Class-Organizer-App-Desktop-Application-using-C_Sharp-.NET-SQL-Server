@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="class_routineModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="class_routineModelStoreContainer">
+    <EntitySet Name="info" EntityType="class_routineModel.Store.info" store:Type="Tables" store:Schema="dbo" store:Name="info">
+      <DefiningQuery>SELECT 
+      [info].[ID] AS [ID], 
+      [info].[Department] AS [Department], 
+      [info].[Program] AS [Program], 
+      [info].[Campus] AS [Campus], 
+      [info].[Section] AS [Section], 
+      [info].[Label] AS [Label], 
+      [info].[Term] AS [Term], 
+      [info].[Course_Code] AS [Course_Code], 
+      [info].[Course_Title] AS [Course_Title], 
+      [info].[Teacher_Initial] AS [Teacher_Initial], 
+      [info].[Weekday] AS [Weekday], 
+      [info].[Starting_Time] AS [Starting_Time], 
+      [info].[Ending_Time] AS [Ending_Time], 
+      [info].[Room] AS [Room], 
+      [info].[Semester] AS [Semester]
+      FROM [dbo].[info] AS [info]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'class_routine.dbo.info' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="info">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Department" Type="varchar" MaxLength="30" />
+    <Property Name="Program" Type="varchar" MaxLength="10" />
+    <Property Name="Campus" Type="varchar" MaxLength="10" />
+    <Property Name="Section" Type="varchar" MaxLength="5" />
+    <Property Name="Label" Type="varchar" MaxLength="10" />
+    <Property Name="Term" Type="varchar" MaxLength="10" />
+    <Property Name="Course_Code" Type="varchar" MaxLength="10" />
+    <Property Name="Course_Title" Type="varchar" MaxLength="50" />
+    <Property Name="Teacher_Initial" Type="varchar" MaxLength="10" />
+    <Property Name="Weekday" Type="varchar" MaxLength="20" />
+    <Property Name="Starting_Time" Type="varchar" MaxLength="10" />
+    <Property Name="Ending_Time" Type="varchar" MaxLength="10" />
+    <Property Name="Room" Type="varchar" MaxLength="20" />
+    <Property Name="Semester" Type="varchar" MaxLength="20" />
+  </EntityType>
+</Schema>

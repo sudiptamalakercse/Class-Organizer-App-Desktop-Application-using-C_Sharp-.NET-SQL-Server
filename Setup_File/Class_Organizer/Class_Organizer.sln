@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Class_Organizer", "Class_Organizer\Class_Organizer.vdproj", "{509F38CE-31A1-4423-91B3-A8818547C86C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{509F38CE-31A1-4423-91B3-A8818547C86C}.Debug|Default.ActiveCfg = Debug
+		{509F38CE-31A1-4423-91B3-A8818547C86C}.Debug|Default.Build.0 = Debug
+		{509F38CE-31A1-4423-91B3-A8818547C86C}.Release|Default.ActiveCfg = Release
+		{509F38CE-31A1-4423-91B3-A8818547C86C}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

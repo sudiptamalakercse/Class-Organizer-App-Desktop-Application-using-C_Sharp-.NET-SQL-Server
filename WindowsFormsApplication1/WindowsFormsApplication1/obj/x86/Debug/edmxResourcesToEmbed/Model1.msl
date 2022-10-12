@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="class_routineModelStoreContainer" CdmEntityContainer="class_routineEntities">
+    <EntitySetMapping Name="infoes">
+      <EntityTypeMapping TypeName="class_routineModel.info">
+        <MappingFragment StoreEntitySet="info">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="Program" ColumnName="Program" />
+          <ScalarProperty Name="Campus" ColumnName="Campus" />
+          <ScalarProperty Name="Section" ColumnName="Section" />
+          <ScalarProperty Name="Label" ColumnName="Label" />
+          <ScalarProperty Name="Term" ColumnName="Term" />
+          <ScalarProperty Name="Course_Code" ColumnName="Course_Code" />
+          <ScalarProperty Name="Course_Title" ColumnName="Course_Title" />
+          <ScalarProperty Name="Teacher_Initial" ColumnName="Teacher_Initial" />
+          <ScalarProperty Name="Weekday" ColumnName="Weekday" />
+          <ScalarProperty Name="Starting_Time" ColumnName="Starting_Time" />
+          <ScalarProperty Name="Ending_Time" ColumnName="Ending_Time" />
+          <ScalarProperty Name="Room" ColumnName="Room" />
+          <ScalarProperty Name="Semester" ColumnName="Semester" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

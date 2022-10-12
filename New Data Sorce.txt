@@ -1,0 +1,1 @@
+DESKTOP-SC073EN;Initial Catalog=class_routine;Integrated Security=True

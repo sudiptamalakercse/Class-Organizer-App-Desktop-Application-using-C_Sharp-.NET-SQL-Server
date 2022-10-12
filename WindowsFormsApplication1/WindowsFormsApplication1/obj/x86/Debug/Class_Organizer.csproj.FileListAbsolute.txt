@@ -1,0 +1,40 @@
+c:\users\dcl\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+c:\users\dcl\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+c:\users\dcl\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Class_Organizer.resources
+c:\users\dcl\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Add_Class.resources
+c:\users\dcl\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+c:\users\dcl\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\Class_Organizer.csproj.GenerateResource.Cache
+c:\users\dcl\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+c:\users\dcl\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\DCL\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\Class_Organizer.csprojResolveAssemblyReference.cache
+C:\Users\DCL\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.View_Class1.resources
+C:\Users\DCL\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.View_class2_student.resources
+C:\Users\DCL\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.View_class3_teacher.resources
+C:\Users\DCL\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+F:\Personal\project\dot net\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+F:\Personal\project\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+F:\Personal\project\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+F:\Personal\project\dot net\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+F:\Personal\project\dot net\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+F:\Personal\project\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\Class_Organizer.csprojResolveAssemblyReference.cache
+F:\Personal\project\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Class_Organizer.resources
+F:\Personal\project\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Add_Class.resources
+F:\Personal\project\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\Personal\project\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.View_Class1.resources
+F:\Personal\project\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.View_class2_student.resources
+F:\Personal\project\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.View_class3_teacher.resources
+F:\Personal\project\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\Class_Organizer.csproj.GenerateResource.Cache
+C:\Users\Administrator.DESKTOP-SC073EN\Desktop\small projects\Project_Small\dot net\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Administrator.DESKTOP-SC073EN\Desktop\small projects\Project_Small\dot net\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Administrator.DESKTOP-SC073EN\Desktop\small projects\Project_Small\dot net\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Administrator.DESKTOP-SC073EN\Desktop\small projects\Project_Small\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\Class_Organizer.csproj.AssemblyReference.cache
+C:\Users\Administrator.DESKTOP-SC073EN\Desktop\small projects\Project_Small\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Class_Organizer.resources
+C:\Users\Administrator.DESKTOP-SC073EN\Desktop\small projects\Project_Small\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Add_Class.resources
+C:\Users\Administrator.DESKTOP-SC073EN\Desktop\small projects\Project_Small\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Administrator.DESKTOP-SC073EN\Desktop\small projects\Project_Small\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.View_Class1.resources
+C:\Users\Administrator.DESKTOP-SC073EN\Desktop\small projects\Project_Small\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.View_class2_student.resources
+C:\Users\Administrator.DESKTOP-SC073EN\Desktop\small projects\Project_Small\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.View_class3_teacher.resources
+C:\Users\Administrator.DESKTOP-SC073EN\Desktop\small projects\Project_Small\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\Class_Organizer.csproj.GenerateResource.cache
+C:\Users\Administrator.DESKTOP-SC073EN\Desktop\small projects\Project_Small\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\Class_Organizer.csproj.CoreCompileInputs.cache
+C:\Users\Administrator.DESKTOP-SC073EN\Desktop\small projects\Project_Small\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Administrator.DESKTOP-SC073EN\Desktop\small projects\Project_Small\dot net\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb

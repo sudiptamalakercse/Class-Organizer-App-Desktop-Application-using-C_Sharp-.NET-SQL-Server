@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="class_routineModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="class_routineModelStoreContainer">
+          <EntitySet Name="info" EntityType="class_routineModel.Store.info" store:Type="Tables" store:Schema="dbo" store:Name="info">
+            <DefiningQuery>SELECT 
+      [info].[ID] AS [ID], 
+      [info].[Department] AS [Department], 
+      [info].[Program] AS [Program], 
+      [info].[Campus] AS [Campus], 
+      [info].[Section] AS [Section], 
+      [info].[Label] AS [Label], 
+      [info].[Term] AS [Term], 
+      [info].[Course_Code] AS [Course_Code], 
+      [info].[Course_Title] AS [Course_Title], 
+      [info].[Teacher_Initial] AS [Teacher_Initial], 
+      [info].[Weekday] AS [Weekday], 
+      [info].[Starting_Time] AS [Starting_Time], 
+      [info].[Ending_Time] AS [Ending_Time], 
+      [info].[Room] AS [Room], 
+      [info].[Semester] AS [Semester]
+      FROM [dbo].[info] AS [info]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'class_routine.dbo.info' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="info">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Department" Type="varchar" MaxLength="30" />
+          <Property Name="Program" Type="varchar" MaxLength="10" />
+          <Property Name="Campus" Type="varchar" MaxLength="10" />
+          <Property Name="Section" Type="varchar" MaxLength="5" />
+          <Property Name="Label" Type="varchar" MaxLength="10" />
+          <Property Name="Term" Type="varchar" MaxLength="10" />
+          <Property Name="Course_Code" Type="varchar" MaxLength="10" />
+          <Property Name="Course_Title" Type="varchar" MaxLength="50" />
+          <Property Name="Teacher_Initial" Type="varchar" MaxLength="10" />
+          <Property Name="Weekday" Type="varchar" MaxLength="20" />
+          <Property Name="Starting_Time" Type="varchar" MaxLength="10" />
+          <Property Name="Ending_Time" Type="varchar" MaxLength="10" />
+          <Property Name="Room" Type="varchar" MaxLength="20" />
+          <Property Name="Semester" Type="varchar" MaxLength="20" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="class_routineModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="class_routineEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="infoes" EntityType="class_routineModel.info" />
+        </EntityContainer>
+        <EntityType Name="info">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Department" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="Program" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="Campus" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="Section" Type="String" MaxLength="5" Unicode="false" FixedLength="false" />
+          <Property Name="Label" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="Term" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="Course_Code" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="Course_Title" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Teacher_Initial" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="Weekday" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="Starting_Time" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="Ending_Time" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="Room" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="Semester" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="class_routineModelStoreContainer" CdmEntityContainer="class_routineEntities">
+          <EntitySetMapping Name="infoes">
+            <EntityTypeMapping TypeName="class_routineModel.info">
+              <MappingFragment StoreEntitySet="info">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Department" ColumnName="Department" />
+                <ScalarProperty Name="Program" ColumnName="Program" />
+                <ScalarProperty Name="Campus" ColumnName="Campus" />
+                <ScalarProperty Name="Section" ColumnName="Section" />
+                <ScalarProperty Name="Label" ColumnName="Label" />
+                <ScalarProperty Name="Term" ColumnName="Term" />
+                <ScalarProperty Name="Course_Code" ColumnName="Course_Code" />
+                <ScalarProperty Name="Course_Title" ColumnName="Course_Title" />
+                <ScalarProperty Name="Teacher_Initial" ColumnName="Teacher_Initial" />
+                <ScalarProperty Name="Weekday" ColumnName="Weekday" />
+                <ScalarProperty Name="Starting_Time" ColumnName="Starting_Time" />
+                <ScalarProperty Name="Ending_Time" ColumnName="Ending_Time" />
+                <ScalarProperty Name="Room" ColumnName="Room" />
+                <ScalarProperty Name="Semester" ColumnName="Semester" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Model1">
+        <EntityTypeShape EntityType="class_routineModel.info" Width="1.5" PointX="0.75" PointY="0.75" Height="0.4" IsExpanded="false" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>
